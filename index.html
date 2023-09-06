@@ -4,32 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Runo Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/root.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
         <header>
             <nav>
+                <div class="nav-wrapper">
                 <div id="logo">
-                    <a href="index.html"></a><img src="images/RUNO.svg" alt="Logo Runo"></div>
+                    <a href="index.html"></a><img src="images/RUNO.svg" alt="Logo Runo">
                 </div>
+
                 <ul id="main-nav">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Articles</a></li>
                     <li><a href="#">Contact</a></li>
-                </ul>
+                        <li class="social separate"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li class="social"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="social"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li class="social"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                        <li class="social"><a href="#"><i class="fab fa-behance"></i></a></li>
+                            <li class="separate"><a href="#"><i class="fas fa-search"></i></a></li>
+                </div>
+            </div>
             </nav>
+
             <div id="top-box">
                 <div class="container">
                     <div class="row">
-                        <div class="box-100">
+                        <div class="box-50">
                             <span class="category">Adventure</span>
                             <h1>Richird Norton photorealistic rendering as real photos</h1>
-                            <p>Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.</p>
+                            <div class="article-box">
+                                <div class="date"><p>08.08.2021</p></div>
+                                <span class="separator"></span>
+                                <div class="resume">                                    
+                                    <p>Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -40,12 +59,23 @@
                 <div class="row">
                     <div class="box-100">
                         <h2>Popular Topics</h2>
+                        <div class="box-50">
+                        <ul class="category-nav">
+                            <li><a class="active" href="#">All</a></li>
+                            <li><a href="#">Adventure</a></li>
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">Technology</a></li>
+                            <li><a href="#">Branding</a></li>
+                        </ul>
+                    </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="box-25">
                         <article>
                             <img src="images/blog1.jpg" alt="">
+                            <span class="category">Adventure</span>
                             <span class="date">01/01/2023</span>
                             <h3>Article Title</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minus, voluptatibus aspernatur eligendi odio natus autem veniam fugiat alias voluptatem sed cupiditate doloribus...</p>
@@ -54,6 +84,7 @@
                     <div class="box-25">
                         <article>
                             <img src="images/blog2.jpg" alt="">
+                            <span class="category">Adventure</span>
                             <span class="date">01/01/2023</span>
                             <h3>Article Title</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minus, voluptatibus aspernatur eligendi odio natus autem veniam fugiat alias voluptatem sed cupiditate doloribus...</p>
@@ -62,6 +93,7 @@
                     <div class="box-25">
                         <article>
                             <img src="images/blog3.jpg" alt="">
+                            <span class="category">Adventure</span>
                             <span class="date">01/01/2023</span>
                             <h3>Article Title</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minus, voluptatibus aspernatur eligendi odio natus autem veniam fugiat alias voluptatem sed cupiditate doloribus...</p>
@@ -70,6 +102,45 @@
                     <div class="box-25">
                         <article>
                             <img src="images/blog4.jpg" alt="">
+                            <span class="category">Adventure</span>
+                            <span class="date">01/01/2023</span>
+                            <h3>Article Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minus, voluptatibus aspernatur eligendi odio natus autem veniam fugiat alias voluptatem sed cupiditate doloribus...</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box-25">
+                        <article>
+                            <img src="images/blog5.jpg" alt="">
+                            <span class="category">Adventure</span>
+                            <span class="date">01/01/2023</span>
+                            <h3>Article Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minus, voluptatibus aspernatur eligendi odio natus autem veniam fugiat alias voluptatem sed cupiditate doloribus...</p>
+                        </article>
+                    </div>
+                    <div class="box-25">
+                        <article>
+                            <img src="images/blog6.jpg" alt="">
+                            <span class="category">Adventure</span>
+                            <span class="date">01/01/2023</span>
+                            <h3>Article Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minus, voluptatibus aspernatur eligendi odio natus autem veniam fugiat alias voluptatem sed cupiditate doloribus...</p>
+                        </article>
+                    </div>
+                    <div class="box-25">
+                        <article>
+                            <img src="images/blog7.jpg" alt="">
+                            <span class="category">Adventure</span>
+                            <span class="date">01/01/2023</span>
+                            <h3>Article Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minus, voluptatibus aspernatur eligendi odio natus autem veniam fugiat alias voluptatem sed cupiditate doloribus...</p>
+                        </article>
+                    </div>
+                    <div class="box-25">
+                        <article>
+                            <img src="images/blog8.jpg" alt="">
+                            <span class="category">Adventure</span>
                             <span class="date">01/01/2023</span>
                             <h3>Article Title</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minus, voluptatibus aspernatur eligendi odio natus autem veniam fugiat alias voluptatem sed cupiditate doloribus...</p>
@@ -78,5 +149,67 @@
                 </div>
             </div>
         </section>
+
+        <section id="section-2">
+            <div class="picture-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="box-50">
+                            <span class="category">Fashion</span>
+                            <h1>Richird Norton photorealistic rendering as real photos</h1>
+                            <div class="article-box">
+                                <div class="resume">                                    
+                                    <p>Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.</p>
+                                </div>
+                                <span class="separator"></span>
+                                <div class="date"><p>08.08.2021</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="top-footer">
+            <div class="row">
+                <div class="box-25 contact">
+                    <h4>Contact the publisher</h4>
+                    <p><a href="mailto:mike@runo.com">mike@runo.com</a></p>
+                </div>
+                <div class="box-25 nav-footer">
+                    <h4>Explorate</h4>
+                    <a href="#">About </a>
+                    <a href="#">Partners</a>
+                    <a href="#news">Job opportunities</a>
+                    <a href="#contact">Advertise</a>
+                    <a href="#about">Menmbership</a>
+                    <a href="#about">Contact</a>
+                </div>
+                <div class="box-25 address">
+                    <h4>Headquarter</h4>
+                    <p>191 Middleville Road,<br> NY 1001,<br> Sydney Australia</p>
+                </div>
+                <div class="socials-footer">
+                    <h4>Connections</h4>
+                    <ul>
+                        <li><i class="fab fa-facebook" href="#"></i></li>
+                        <li><i class="fab fa-twitter" href="#"></i></li>
+                        <li><i class="fab fa-youtube" href="#"></i></li>
+                        <li><i class="fab fa-pinterest" href="#"></i></li>
+                        <li><i class="fab fa-behance" href="#"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="grey-links">
+                <div><p>2023 | RUNO Publisher Studio</p></div>
+                <div><a href="#">Subscribe Now</a></div>
+            </div>
+        </div>
+    </footer>
 </html>

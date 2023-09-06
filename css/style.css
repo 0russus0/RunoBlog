@@ -1,5 +1,13 @@
-/* FONTS */
 @import "reset";
+*,
+body *{
+    box-sizing: border-box;
+}
+img{
+    max-width:100%;
+}
+
+/* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 h1,
@@ -18,19 +26,7 @@ p, span, a, li, input, textarea, label, select, option, button {
   color: #333;
 }
 
-header ul li{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
-
-/* STRUCTURE FLEX */
-.fluid{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
-
+/* LAYOUT */
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -42,46 +38,84 @@ header ul li{
     margin: 0 -10px;
 }
 .box-25{
-    width:25%;
-}
-.box-33{
-    width:33.33333333333333%;
+    width: 25%;
+    padding: 0 10px;
 }
 .box-50{
-    width:50%;
-}
-.box-66{
-    width:66.6666666666666%;
+    width: 50%;
+    padding: 0 10px;
 }
 .box-75{
-    width:75%;
+    width: 75%;
+    padding: 0 10px;
 }
 .box-100{
-    width:100%;
-}
-
-
-
-/* COLORS */
-
-header{
-    background-color:rgba(0, 0, 0, 0.20);
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
-    height: 80px;
-    margin: 0 auto -80px auto;
-    position: sticky;
+    padding: 0 10px;
 }
 
-body{
-    background-color: white;
-    position: relative;
-}
+
 
 /* CUSTOM CODE */
+nav{
+    display:flex;
+}
+
+#logo{
+    max-width: 68px;
+    height: auto;
+    }
+
+/* #logo{
+    width:10%;
+}
+#logo a{
+    line-height: 2rem;
+} */
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:rgba(0,0,0,0.2);
+}
+nav ul#main-nav{
+    width:90%;
+    text-align:right;
+    display:flex;
+    justify-content:end;
+}
+nav ul#main-nav li{
+    list-style-type: none;
+    margin: 0 20px;
+}
+nav ul#main-nav li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    padding:10px;
+}
+header #top-box{
+    padding:200px 0 100px 0;
+    background-image: url(../images/section1.jpg);
+}
+#top-box h1,
+#top-box p{
+    color:white;
+}
+
+
+
+#section-1{
+    padding:100px 0;
+}
+
+
+
 .tag{
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.15);
@@ -97,32 +131,4 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-
-.logo{
-max-width: 68px;
-height: auto;
-}
-
-#section1{
-    color: white;
-    background-image: url("/images/section1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 200px 0 70px 0;
-}
-#section1 h1 {
-color: #FFF;
-font-family: Lora;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-
-#secti
-
-.resume p, .date{
-    color: white;
 }
